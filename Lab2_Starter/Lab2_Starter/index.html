@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+</head>
+<body>
+    <form>
+        <p>Calculate Perimeter for:
+            <input type="radio" name="radtype" id="radSquare" value="square" checked>
+            <label for="radSquare">Square</label>
+
+            <input type="radio" name="radtype" id="radCircle" value="circle">
+            <label for="radCircle">Circle</label>
+
+            <input type="radio" name="radtype" id="radRectangle" value="rectangle">
+            <label for="radRectangle">Rectangle</label>
+        </p>
+        <p>
+            <label for="numLength">Enter a Length or Radius:</label>
+            <input type="text" id="numLength">
+
+            <label for="numWidth">Enter a Width:</label>
+            <input type="text" id="numWidth">
+        </p>
+
+        <input type="button" id="btnGetPerim" value="Calculate Perimeter">
+    </form>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
